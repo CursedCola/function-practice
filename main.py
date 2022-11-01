@@ -26,9 +26,12 @@ print(fruitSubtracted)
 fruitDivided = divide_fruits(apples,oranges)
 print(fruitDivided)
 # display the added fruits, subtract fruits, and divid fruits
+# create another file called display fruit
 
 x,y,z = fruitAdded, fruitSubtracted, fruitDivided
 
 displayed_fruits = displayFruit(x,y,z)
 print(displayed_fruits)
-display_fruit(fruit)
+
+# Another way:
+displayed_fruits(fruitAdded, fruitSubtracted, fruitDivided)
